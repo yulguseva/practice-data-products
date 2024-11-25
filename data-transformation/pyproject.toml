@@ -10,7 +10,12 @@ python = "3.11.10"
 pyspark = "3.4.0"
 pandas = "^2.2.3"
 pydeequ = "^1.4.0"
+pyarrow = "^18.0.0"
 
+
+[tool.poetry.group.dev.dependencies]
+jupyter = "^1.1.1"
+pytest = "^8.3.3"
 
 [build-system]
 requires = ["poetry-core"]
